@@ -14,7 +14,7 @@ wardial.py -s AC4a7000000000000000 -t 0a0cd0000000000000 -f 12125551212 -i numbe
 It's best to use the stand-alone get-logs.py after some time has passed to give all of the calls a chance to complete.
 
 USAGE:
-get-logs.py -s [SID] -t [TOKEN] -O [OUTPUT_FILE]
+get-logs.py -s [`SID`] -t [`TOKEN`] -O [`OUTPUT_FILE`]
 
 EXAMPLE:
 get-logs.py -s AC4a7000000000000000 -t 0a0cd0000000000000 -o wardial-log.txt
